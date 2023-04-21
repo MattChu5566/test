@@ -1,1 +1,12 @@
-hello world
+git command:
+git init
+git status
+git add [file|.]
+git commit (-m) "message"
+git remote add origin "github_URL"
+git push (-u origin master)
+git clone ""github_URL"
+
+git reset -- file
+git checkout -- file
+git reset --soft Head~file
