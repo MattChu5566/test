@@ -2,11 +2,17 @@ git command:
 git init
 git status
 git add [file|.]
-git commit (-m) "message"
+git commit (-m) "message" : (-m : don't open editor)
 git remote add origin "github_URL"
-git push (-u origin master)
-git clone ""github_URL"
+git push (-u) origin [Master|BranchName|HEAD] : (-u : set to default)
+git clone ""github_clone_URL"
 
-git reset -- file
-git checkout -- file
-git reset --soft Head~1
+git reset -- file : staged change -> change, reverse of git add
+git checkout -- file : discard changes
+git reset --soft HEAD~1 : reload to last commit (HEAD : this version, HEAD~1 : previous version...)
+
+git log
+git pull
+
+git checkout -b BranchName : create branch
+git branch (-a) : see branch (-a : include remote branch)
