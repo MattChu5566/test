@@ -16,3 +16,6 @@ git pull
 
 git checkout -b BranchName : create branch
 git branch (-a) : see branch (-a : include remote branch)
+
+merge:
+1. pull request
