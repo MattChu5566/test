@@ -18,9 +18,6 @@ git checkout -b BranchName : create branch
 git branch (-a) : see branch (-a : include remote branch)
 
 merge:
-<<<<<<< HEAD
-1. pull request
-=======
 pull request
 1. git switch master
 2. git pull
@@ -33,4 +30,3 @@ pull request
 9. git switch master
 10. git branch -d newBranch
 
->>>>>>> f696c6b (new branch)
