@@ -9,4 +9,4 @@ git clone ""github_URL"
 
 git reset -- file
 git checkout -- file
-git reset --soft Head~file
+git reset --soft Head~1
